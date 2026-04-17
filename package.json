@@ -1,21 +1,16 @@
 {
-  "name": "cesusc-devops",
+  "name": "node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js application for DevOps course",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/itallolugon/cesusc-devops.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/itallolugon/cesusc-devops/issues"
-  },
-  "homepage": "https://github.com/itallolugon/cesusc-devops#readme"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
